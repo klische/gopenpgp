@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 
 	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	"github.com/klische/gopenpgp/v2/internal"
 
 	"golang.org/x/crypto/openpgp/armor"
 )
