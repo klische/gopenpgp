@@ -1,4 +1,4 @@
-module github.com/ProtonMail/gopenpgp/v2
+module github.com/klische/gopenpgp/v2
 
 go 1.12
 
@@ -9,4 +9,4 @@ require (
 	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392
 )
 
-replace golang.org/x/crypto => github.com/ProtonMail/crypto v0.0.0-20200416114516-1fa7f403fb9c
+replace golang.org/x/crypto => github.com/klische/crypto v0.0.0-20200416114516-1fa7f403fb9c
