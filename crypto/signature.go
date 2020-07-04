@@ -12,7 +12,7 @@ import (
 	pgpErrors "golang.org/x/crypto/openpgp/errors"
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/klische/gopenpgp/v2/constants"
 	"github.com/klische/gopenpgp/v2/internal"
 )
 

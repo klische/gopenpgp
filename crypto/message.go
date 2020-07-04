@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/ProtonMail/gopenpgp/v2/armor"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/klische/gopenpgp/v2/armor"
+	"github.com/klische/gopenpgp/v2/constants"
 	"github.com/klische/gopenpgp/v2/internal"
 
 	"golang.org/x/crypto/openpgp/clearsign"

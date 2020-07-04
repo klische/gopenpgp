@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProtonMail/gopenpgp/v2/armor"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/klische/gopenpgp/v2/armor"
+	"github.com/klische/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
 
 	openpgp "golang.org/x/crypto/openpgp"

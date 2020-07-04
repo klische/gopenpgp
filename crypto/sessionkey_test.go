@@ -3,7 +3,7 @@ package crypto
 import (
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/klische/gopenpgp/v2/constants"
 	"github.com/stretchr/testify/assert"
 )
 

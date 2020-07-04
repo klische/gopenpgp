@@ -30,7 +30,7 @@ To use this library using [Go Modules](https://github.com/golang/go/wiki/Modules
 ```gomod
 require (
     ...
-    github.com/ProtonMail/gopenpgp/v2 v2.0.1
+    github.com/klische/gopenpgp/v2 v2.0.1
 )
 
 replace golang.org/x/crypto => github.com/ProtonMail/crypto v0.0.0-20200416114516-1fa7f403fb9c
@@ -46,7 +46,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/klische/gopenpgp/v2/crypto"
 )
 
 func main() {
@@ -101,7 +101,7 @@ to filter one out you can comment out the line in the corresponding section.
 ### Encrypt / Decrypt with password
 
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/helper"
+import "github.com/klische/gopenpgp/v2/helper"
 
 const password = []byte("hunter2")
 
@@ -114,7 +114,7 @@ message, err := helper.DecryptMessageWithPassword(password, armor)
 
 To encrypt binary data or use more advanced modes:
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/constants"
+import "github.com/klische/gopenpgp/v2/constants"
 
 const password = []byte("hunter2")
 
@@ -135,7 +135,7 @@ decrypted, err := DecryptMessageWithPassword(encrypted, password)
 ### Encrypt / Decrypt with PGP keys
 
 ```go
-import "github.com/ProtonMail/gopenpgp/v2/helper"
+import "github.com/klische/gopenpgp/v2/helper"
 
 // put keys in backtick (``) to avoid errors caused by spaces or tabs
 const pubkey = `-----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -3,7 +3,7 @@ package helper
 import (
 	"encoding/json"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/klische/gopenpgp/v2/crypto"
 )
 
 type ExplicitVerifyMessage struct {
