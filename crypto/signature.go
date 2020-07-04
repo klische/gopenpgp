@@ -13,7 +13,7 @@ import (
 	"golang.org/x/crypto/openpgp/packet"
 
 	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	"github.com/klische/gopenpgp/v2/internal"
 )
 
 var allowedHashes = []crypto.Hash{
