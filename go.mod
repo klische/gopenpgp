@@ -9,4 +9,4 @@ require (
 	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392
 )
 
-replace golang.org/x/crypto => github.com/klische/crypto v0.0.0-20200416114516-1fa7f403fb9c
+replace golang.org/x/crypto => github.com/klische/crypto v0.0.0-20200704001232-4a9868ba58c3
